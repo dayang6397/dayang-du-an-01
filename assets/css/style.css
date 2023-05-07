@@ -12,9 +12,7 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
-main {
-    height: 20000px;
-}
+
 a {
     text-decoration: none;
 }
@@ -42,16 +40,28 @@ a {
     opacity: 0.9;
 }
 /* ======Header====== */
+.fix-header{
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
 .header {
+    display: flex;
+    flex-direction: column;
     background: #e6f0ff;
     height: 100vh;
     position: relative;
 }
 /* =====navbar====== */
-.navbar {
+
+.navbar .content {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
+    
 }
 /* ==Logo== */
 /* .logo{
@@ -157,13 +167,28 @@ a {
 }
 .clinents .row-dec {
     margin-top: 23px;
-    margin-bottom: 96px;
+    margin-bottom: 66px;
 }
 .clinents .img {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.clinents .img a {
+    padding: 0px 42px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.clinents .img a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
 /* ====== Guides ======= */
 .guides {
     margin-top: 174px;
