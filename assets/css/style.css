@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -45,7 +46,7 @@ a {
     opacity: 0.9;
 }
 /* ======Header====== */
-.fix-header{
+.fix-header {
     background: #e6f0ff;
     padding-top: 26px;
     position: sticky;
@@ -56,6 +57,7 @@ a {
 .header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: #e6f0ff;
     height: calc(100vh - 90px);
     position: relative;
@@ -66,7 +68,6 @@ a {
     display: flex;
     align-items: center;
     padding: 12px 0;
-    
 }
 /* ==Logo== */
 /* .logo{
@@ -115,7 +116,6 @@ a {
     margin-left: 18px;
 }
 .navbar-2 {
-    margin-top: 138px;
     width: 51%;
 }
 .navbar-2 p:first-child {
